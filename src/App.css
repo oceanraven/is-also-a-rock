@@ -1,0 +1,33 @@
+.background {
+  background-image: url("https://i.imgur.com/SHZe50s.gif");
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: yellow;
+}
+
+.meaning {
+  color: yellow;
+}
+
+.highlight {
+  color: cyan;
+}
+
+.random {
+  background: none;
+  outline: none;
+  border: none;
+  color: red;
+
+  &:hover {
+    cursor: pointer;
+    color: blue;
+  }
+}
